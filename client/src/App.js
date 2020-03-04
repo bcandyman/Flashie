@@ -1,6 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
+import CardDisplay from './pages/CardDisplay';
 
 function App() {
   return (

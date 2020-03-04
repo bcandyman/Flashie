@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import API from "../utils/API";
 import flashcards from "../flashcards.json"
 import Card from "../components/Card"
 
