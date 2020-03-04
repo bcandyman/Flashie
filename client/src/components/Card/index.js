@@ -1,7 +1,21 @@
 import React from "react"
+import API from "../"
 import "./style.css";
 
 export default function Card(props){
+
+    const nextCard = (i) => {
+        cardArray[i--]
+    }
+
+    const prevCard = (i) => {
+        cardArray[i++]
+    }
+
+    const cardFlip = () => {
+
+    }
+
     return (
     <div className="flashcard">
         <div className="card-title">{props.DeckName}</div>
@@ -12,9 +26,9 @@ export default function Card(props){
             Side B: {props.SideB}
         </div>
         <div className="button-container">
-            <button>←</button>
-            <button>⟳</button>
-            <button>→</button>
+            <button className="btn-prev">←</button>
+            <button className="btn-flip">⟳</button>
+            <button className="btn-next">→</button>
         </div>
     </div>
     );
