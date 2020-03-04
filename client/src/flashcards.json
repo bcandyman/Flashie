@@ -1,0 +1,32 @@
+[
+    {
+        "deckName": "Sample Deck",
+        "cardContent" : {
+            "SideA": "What is red, delicious, fruit which keeps the doctor away",
+            "SideB": "Apple"
+        },
+        "scores" : [],
+        "flaggedForRemoval" : false
+    },{
+        "deckName": "Sample Deck",
+        "cardContent" : {
+            "SideA": "What is mans' best friend",
+            "SideB": "Dog"
+        },
+        "scores" : []
+    },{
+        "deckName": "Sample Deck",
+        "cardContent" : {
+            "SideA": "What is used to take photos?",
+            "SideB": "Camera"
+        },
+        "scores" : []
+    },{
+        "deckName": "Sample Deck",
+        "cardContent" : {
+            "SideA": "The day of the week?",
+            "SideB": "Saturday"
+        },
+        "scores" : []
+    }
+]
