@@ -1,0 +1,23 @@
+{
+  "name": "Initial Cards",
+  "author": "Ben Candy",
+  "subject": "Some Subject",
+  "questions": [
+    {
+      "question": "What is red, delicious, fruit which keeps the doctor away?",
+      "answer": "Apple"
+    },
+    {
+      "question": "What is man's best friend?",
+      "answer": "Dog"
+    },
+    {
+      "question": "What is used to take photos?",
+      "answer": "Camera"
+    },
+    {
+      "question": "The day of the week?",
+      "answer": "Saturday"
+    }
+  ]
+}
