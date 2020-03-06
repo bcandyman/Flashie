@@ -14,4 +14,11 @@ module.exports = app => {
       .then(data => res.send(data))
       .catch(err => res.send(err));
   });
+
+  // Retrieve all decks
+  app.get('/api/decks', (req, res) => {
+    db.Deck.find({})
+      .then(data => res.send(data))
+      .catch(err => res.send(err));
+  });
 };
