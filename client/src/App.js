@@ -1,7 +1,14 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
-import Decklist from './components/Decklist';
+import Decks from './pages/Decks';
+import CardDisplay from './components/Card'
 
 function App() {
   return (
@@ -12,7 +19,7 @@ function App() {
             <CardDisplay />
           </Route>
           <Route exact path={["/decks"]}>
-            <Decklist />
+            <Decks />
           </Route>
         </Switch>
       </div>

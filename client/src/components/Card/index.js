@@ -1,20 +1,19 @@
 import React from "react"
-import API from "../"
 import "./style.css";
 
 export default function Card(props){
 
-    const nextCard = (i) => {
-        cardArray[i--]
-    }
+    // const nextCard = (i) => {
+    //     cardArray[i--]
+    // }
 
-    const prevCard = (i) => {
-        cardArray[i++]
-    }
+    // const prevCard = (i) => {
+    //     cardArray[i++]
+    // }
 
-    const cardFlip = () => {
+    // const cardFlip = () => {
 
-    }
+    // }
 
     return (
     <div className="flashcard">
