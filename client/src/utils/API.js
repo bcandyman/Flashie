@@ -6,5 +6,5 @@ export default {
 
   getDeck: (deckId) => axios.get(`api/deck/${deckId}`),
 
-  // saveDeck: (bookData) => { axios.post("/api/books", bookData) },
+  saveDeck: (bookData) => { axios.post("/api/books", bookData) },
 };

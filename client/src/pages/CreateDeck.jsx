@@ -6,6 +6,7 @@ import CardBody from "../components/CardBody";
 import Button from "../components/Button";
 import { Container } from "../components/Grid";
 import { Ul, Li } from '../components/ListGroup'
+import Form from '../components/Form'
 
 
 function Decks() {
@@ -27,15 +28,10 @@ function Decks() {
   return (
     <Container>
       <Card className='mt-5'>
-        <CardHeader>Available Decks</CardHeader>
+        <CardHeader>Create A Deck</CardHeader>
         <CardBody>
           <Ul>
-            {decks.map((deck, index) => (
-              <Li key={index}>
-                <Button className='p-0' name={deck.name} value={deck._id} handleOnClick={handleOnClick}>➲</Button>
-                {deck.name}
-              </Li>
-            ))}
+            <Form />
           </Ul>
         </CardBody>
       </Card>

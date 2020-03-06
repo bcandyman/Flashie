@@ -1,8 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import CardDisplay from './pages/CardDisplay';
-import CardDisplayTest from './pages/CardDisplayTest';
 import Decks from './pages/Decks'
+import CreateDeck from './pages/CreateDeck'
 
 function App() {
   return (
@@ -12,11 +16,11 @@ function App() {
           <Route exact path={["/"]}>
             <CardDisplay />
           </Route>
-          <Route exact path={["/deck"]}>
-            <CardDisplayTest />
-          </Route>
           <Route exact path={["/decks"]}>
             <Decks />
+          </Route>
+          <Route exact path={["/createdeck"]}>
+            <CreateDeck />
           </Route>
         </Switch>
       </div>
