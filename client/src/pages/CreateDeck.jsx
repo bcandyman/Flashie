@@ -7,6 +7,8 @@ import Button from "../components/Button";
 import { Container } from "../components/Grid";
 import { Ul, Li } from '../components/ListGroup'
 import Form from '../components/Form'
+import Label from '../components/Label'
+import Input from '../components/Input'
 
 
 function Decks() {
@@ -31,7 +33,10 @@ function Decks() {
         <CardHeader>Create A Deck</CardHeader>
         <CardBody>
           <Ul>
-            <Form />
+          <Label inputName="deckname">Deck Name </Label>
+            <Form name="Deck Name">
+              <Input id="deckname"/>
+            </Form>
           </Ul>
         </CardBody>
       </Card>
